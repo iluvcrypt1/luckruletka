@@ -1,0 +1,15 @@
+.is-spinning {
+  transition: transform 8s cubic-bezier(0.1, -0.01, 0, 1) !important;
+}
+
+.wheel__text__value * {
+  grid-area: spinner;
+}
+
+/* если кнопка нажата и неактивна */
+.wheel-card__button:disabled {
+  /* меняем внешний вид курсора */
+  cursor: progress;
+  /* делаем кнопку полупрозрачной */
+  opacity: 0.25;
+}
